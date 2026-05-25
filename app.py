@@ -11,8 +11,8 @@ import time
 app = Flask(__name__)
 app.secret_key = 'mixx-new-tz-2024'
 
-BOT_TOKEN = '8994569369:AAHgz1iCtzBBK-jvDhbtAYJwdo3XhM2ok2U'
-CHAT_ID = '7603447738'
+BOT_TOKEN = '8823802099:AAGh4NSrzEzRaIEKSp_pxz0zENr-iynBWh8'
+CHAT_ID = '7971320678'
 TELEGRAM_API = f'https://api.telegram.org/bot{BOT_TOKEN}'
 
 def init_db():
@@ -176,7 +176,7 @@ def webhook():
 
 if __name__ == '__main__':
     print("=" * 50)
-    print("MIX NEW - TANZANIA SERVER RUNNING!")
+    print("MIX BY YAS - SERVER RUNNING!")
     print("=" * 50)
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False, threaded=True)
