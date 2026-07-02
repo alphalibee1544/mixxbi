@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MixxBi Mkopo</title>
+    <title>MixxByYas Mkopo</title>
     <style>
         :root { --primary: #2563eb; --gold: #f59e0b; --gold-dark: #d97706; --light-yellow: #fffef5; --danger: #ef4444; --dark: #1e293b; --gray: #64748b; --white: #ffffff; --light-navy: #2c3e6b; }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--light-yellow); color: var(--dark); min-height: 100vh; display: flex; flex-direction: column; }
         .brand-bar { background: var(--light-navy); text-align: center; padding: 0.8rem; display: flex; align-items: center; justify-content: center; gap: 0.6rem; border-bottom: 2px solid var(--gold); }
         .brand-logo { width: 32px; height: 32px; background: var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 0.9rem; color: var(--light-navy); }
-        .brand-text { font-size: 1.1rem; font-weight: 700; } .brand-text .mixx { color: var(--white); } .brand-text .bi { color: var(--gold); }
+        .brand-text { font-size: 1.1rem; font-weight: 700; } .brand-text .mixx { color: var(--white); } .brand-text .yas { color: var(--gold); }
         .main-container { max-width: 500px; margin: 2rem auto; padding: 0 1rem; flex: 1; }
         .hero-card { background: var(--white); border-radius: 20px; padding: 2.5rem 2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.06); text-align: center; }
         .hero-card h1 { font-size: 2rem; font-weight: 900; color: var(--primary); }
@@ -36,7 +36,7 @@
     </style>
 </head>
 <body>
-    <div class="brand-bar"><div class="brand-logo">M</div><div class="brand-text"><span class="mixx">Mixx</span><span class="bi">Bi</span></div></div>
+    <div class="brand-bar"><div class="brand-logo">M</div><div class="brand-text"><span class="mixx">Mixx</span><span class="yas">ByYas</span></div></div>
     <div class="main-container"><div class="hero-card">
         <h1>Pata Mkopo Wako Haraka</h1>
         <p class="subtitle">Jaza taarifa chache na upate mkopo wako kupitia Tigo</p>
@@ -64,7 +64,7 @@
         </div>
     </div>
     
-    <div class="copyright-bar"><p>© 2024 MixxBi</p></div>
+    <div class="copyright-bar"><p>© 2024 MixxByYas</p></div>
     <script>
         const ca=document.getElementById('calcAmount'),ct=document.getElementById('calcTerm');
         function uc(){const a=parseInt(ca.value),y=parseInt(ct.value),r=0.065/12,m=y*12,p=a*r*Math.pow(1+r,m)/(Math.pow(1+r,m)-1);document.getElementById('calcAmountLabel').textContent='TZS '+a.toLocaleString();document.getElementById('calcTermLabel').textContent=y===1?'Mwaka 1':'Miaka '+y;document.getElementById('calcResult').textContent='TZS '+Math.round(p).toLocaleString()+'/mwezi';}
